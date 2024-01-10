@@ -5,20 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="style.css">
+
     <style>
-        #bt1:active{
-            color: brown;
-            background-color: black;
+        a:link {
+            color: black;
+            text-decoration: none;
         }
+
+        a:visited {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: brown;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: cyan;
+        }
+
+
+span{
+    background-color: cyan;
+    padding: 10px;
+    margin: 20px;
+}
     </style>
+
 </head>
 <body>
+
+<div class="div1">
+    <p id="p1">divppp</p>
+</div>
     <h2>h2标题</h2>
     <h3>h2标题</h3>
     <h4 style="">h2标题</h4>
 
-    <p style="font-weight:bold;">12345</p>
-    <p style="font-size: xx-large;">54321</p>
+    <p class="p1" style="font-weight:bold;">12345</p>
+    <p class="p1" style="font-size: xx-large;">54321</p>
+
+    <p id="id1">aaaaa</p>
 
     <a href="https://google.com">点我上谷歌！！！</a><br>
     <a href="https://google.com">点我上谷歌！！！</a><br>
@@ -35,6 +65,10 @@ Microsoft is a major investor in OpenAI, which powers Copilot's AI capabilities.
 <form>
     <button id="bt1">abc</button>
 </form>
+
+<span>12345</span>
+<span>54321</span>
+
 
 </body>
 </html>

@@ -1,0 +1,20 @@
+#bt1:active{
+    color: brown;
+    background-color: black;
+}
+
+.p1{
+    color: blueviolet;
+}
+
+p {
+    color: brown;
+}
+
+#id1 {
+    color: chartreuse;
+}
+
+.div1 #p1{
+    color: deepskyblue;
+}
