@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #eee;
+            padding: 10px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .nav a:hover {
+            color: #666;
+        }
+
+        .active {
+            font-weight: bold;
+        }
+
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .content {
+            width: 75%;
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>我的个人网站</h1>
+        <p>欢迎来到我的个人网站，这里你可以了解我是谁，我做了什么，以及如何联系我。</p>
+    </div>
+    <div class="nav">
+        <a href="#" class="active">首页</a>
+        <a href="#">简介</a>
+        <a href="#">简历</a>
+        <a href="#">联系</a>
+    </div>
+    <div class="main">
+        <div class="sidebar">
+            <h3>关于我</h3>
+            <p>我是一个热爱编程的人，我喜欢用HTML，Javascript和CSS来创建网页和应用。我也对人工智能和机器学习感兴趣，我经常使用Python和TensorFlow来实现一些有趣的项目。</p>
+            <h3>我的技能</h3>
+            <ul>
+                <li>HTML</li>
+                <li>Javascript</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>TensorFlow</li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>我的作品</h2>
+            <p>这里是我过去做过的一些网页和应用的展示，你可以点击查看详情或者下载源码。</p>
+            <div class="gallery">
+                <img src="work1.jpg" alt="work1" width="300" height="200">
+                <img src="work2.jpg" alt="work2" width="300" height="200">
+                <img src="work3.jpg" alt="work3" width="300" height="200">
+                <img src="work4.jpg" alt="work4" width="300" height="200">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>版权所有 &copy; 2024 我的名字</p>
+        <p>联系方式：我的邮箱，我的电话，我的微信</p>
+    </div>
+</div>
+<script>
+    // 这里可以写一些Javascript代码来实现一些交互功能，比如导航栏的切换，图片的放大，等等。
+</script>
+</body>
+</html>
