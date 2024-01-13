@@ -1,0 +1,33 @@
+aside {
+    background-color: lightblue;
+    grid-area: sidebar;
+    width: 300px;
+}
+
+article{
+    background-color: lightcoral;
+    grid-area: content;
+}
+
+footer{
+    background-color: lightgreen;
+    grid-area: footer;
+}
+
+.page-container {
+    display: grid;
+    grid-template-areas:
+    'sidebar content content'
+    'sidebar footer footer';
+}
+
+@media (max-width: 500px) {
+    .page-container {
+        width: 95%;
+        display: grid;
+        grid-template-areas:
+    'sidebar'
+    'content'
+    'footer';
+    }
+}

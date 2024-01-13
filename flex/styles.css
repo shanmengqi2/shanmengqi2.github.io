@@ -1,0 +1,30 @@
+footer {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold",sans-serif;
+    padding: 16px;
+}
+
+.left {
+    background-color: lightgreen;
+    width: 200px;
+}
+
+.right {
+    background-color: lightsalmon;
+    width: 200px;
+}
+
+
+@media (max-width: 500px) {
+    footer{
+        /* display: block; */
+
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+}
